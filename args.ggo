@@ -1,0 +1,14 @@
+package "ggo file"
+version "1.0"
+purpose "PA project"
+
+# Options
+option "file"       f "This parameter executes command lines indicated in the text file"                                                  string no
+option "no-help"    h "This parameter prints a simple guide with all the avaible options"                                                        no
+option "max"        m "This parameter applies the maximum number of command executions carried out by nanoShell"                          int    no
+option "signalfile" s "This parameter creates the signal.txt file that contains commands that enable to sending signals to the nanoShell"        no
+
+
+#
+# NOTE: support for this file needs to be enabled in 'makefile'
+# help
